@@ -1,0 +1,38 @@
+// This dataset is used to predict the risk quality of a loan application.
+// https://bigml.com/user/bigml/gallery/dataset/4f89c38f1552686459000033
+// first column is the class label: G(Good), B(Bad)
+// then the list of possible values for each attribute
+// --------------------------------------------------
+// A1(checking status): x(no checking), n(x<0), b(0<x<=200), g(200<=x)
+// --------------------------------------------------
+// A2(saving status): n(no savings), b(x<100), m(100<=x<500), g(500<=x<=1000), w(1000<x)
+// --------------------------------------------------
+// A3(credit history): a(all paid), c(critical/other existing credit), d(delayed previously), e(existing paid), n(no credits)
+// --------------------------------------------------
+// A4(housing): r(rent), o(own), f(free)
+// --------------------------------------------------
+// A5(job): h(high qualified/self-employed/management), s(skilled), n(unemployed), u(unskilled)
+// --------------------------------------------------
+// A6(property_magnitude): c(car), l(life insurance), r(real estate), n(no known property)
+// --------------------------------------------------
+// A7(number of dependents): 1, 2
+// --------------------------------------------------
+// A8(number of existing credits): 1, 2, 3, 4
+// --------------------------------------------------
+// A9(own telephone): y(yes), n(no)
+// --------------------------------------------------
+// A10(foreign workers): y(yes), n(no)
+// --------------------------------------------------
+%%,G,B
+##,A1,x,n,b,g
+##,A2,n,b,m,g,w
+##,A3,a,c,d,e,n
+##,A4,r,o,f
+##,A5,h,s,n,u
+##,A6,c,l,r,n
+##,A7,1,2
+##,A8,1,2,3,4
+##,A9,y,n
+##,A10,y,n
+x,n,e,r,h,l,1,1,y,y,G
+x,n,e,r,h,l,1,1,y,y,B

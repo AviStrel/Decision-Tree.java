@@ -1,0 +1,14 @@
+ROOT {A4?}
+    0 (Iris-setosa)
+    1 {A1?}
+        4 (Iris-versicolor)
+        5 {A2?}
+            2 (Iris-versicolor)
+            3 (Iris-setosa)
+            4 (Iris-versicolor)
+        6 (Iris-versicolor)
+        7 (Iris-versicolor)
+        8 (Iris-versicolor)
+        9 (Iris-versicolor)
+    2 (Iris-versicolor)
+    3 (Iris-setosa)
